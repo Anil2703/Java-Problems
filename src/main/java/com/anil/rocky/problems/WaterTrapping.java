@@ -34,7 +34,7 @@ public class WaterTrapping {
             }
         }
 
-        //calculating total
+        //calculate total
         for(int i=0; i<height.length; i++){
             result+= Math.min(left[i],right[i])-height[i];
         }
